@@ -7,7 +7,11 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "stylelint": "stylelint src/**/*.css",
+    "stylelint-fix": "stylelint src/**/*.css --fix",
+    "eslint": "eslint . --ext .js,.ts,",
+    "eslint-fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
   },
   "private": true,
   "dependencies": {
